@@ -1,10 +1,3 @@
-////////////////////////////////////////////////////////////////////////////////
-// Author: Kareem Waseem
-// Course: Digital Verification using SV & UVM
-//
-// Description: ALSU Design 
-//
-////////////////////////////////////////////////////////////////////////////////
 module ALSU (A, B, cin, serial_in, red_op_A, red_op_B, opcode, bypass_A, bypass_B, clk, rst, direction, leds, out);
 parameter INPUT_PRIORITY = "A";
 parameter FULL_ADDER = "ON";
